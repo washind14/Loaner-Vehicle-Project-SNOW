@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_vehicle_year" label="Vehicle Year" language="en" table="x_1473912_lva_loaner_vehicles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_vehicle_year</element>
+            <help/>
+            <hint/>
+            <label>Vehicle Year</label>
+            <language>en</language>
+            <name>x_1473912_lva_loaner_vehicles</name>
+            <plural>Vehicle Years</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-27 21:27:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vehicle Year</sys_name>
+            <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
+            <sys_update_name>sys_documentation_x_1473912_lva_loaner_vehicles_u_vehicle_year_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-27 21:27:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

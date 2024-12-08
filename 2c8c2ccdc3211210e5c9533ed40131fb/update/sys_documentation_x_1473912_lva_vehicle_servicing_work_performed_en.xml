@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="work_performed" label="Work Performed" language="en" table="x_1473912_lva_vehicle_servicing">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_performed</element>
+            <help/>
+            <hint/>
+            <label>Work Performed</label>
+            <language>en</language>
+            <name>x_1473912_lva_vehicle_servicing</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:20:16</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Work Performed</sys_name>
+            <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
+            <sys_update_name>sys_documentation_x_1473912_lva_vehicle_servicing_work_performed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:20:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

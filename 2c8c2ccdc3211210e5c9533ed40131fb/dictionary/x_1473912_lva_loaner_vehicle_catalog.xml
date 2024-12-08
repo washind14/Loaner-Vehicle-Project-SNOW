@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="93d2bcc5c3611210e5c9533ed401312d" label="Loaner Vehicle Catalog" max_length="40" name="x_1473912_lva_loaner_vehicle_catalog" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Year" mandatory="true" max_length="40" name="vehicle_year" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Available" label="Status" mandatory="true" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Unavailable" value="Unavailable"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="0" value="Maintenance"/>
+                <element inactive_on_update="false" label="Available" value="Available"/>
+                <element inactive_on_update="false" label="Decommissioned" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Out on Field" sequence="0" value="Out on Field"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Model" mandatory="true" max_length="40" name="vehicle_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Make" mandatory="true" max_length="40" name="vehicle_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Description" mandatory="true" max_length="1000" name="vehicle_description" type="string"/>
+    </element>
+</database>

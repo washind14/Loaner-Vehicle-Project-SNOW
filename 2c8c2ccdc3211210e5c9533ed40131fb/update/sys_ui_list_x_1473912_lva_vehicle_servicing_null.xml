@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1473912_lva_vehicle_servicing" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>abd90ff6c3611210e5c9533ed40131fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_sent_for_servicing</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>a3d90ff6c3611210e5c9533ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ticket_status</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>a7d90ff6c3611210e5c9533ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>abd90ff6c3611210e5c9533ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_issues</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>afd90ff6c3611210e5c9533ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_status</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>a3d90ff6c3611210e5c9533ed40131fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_tracker</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>a7d90ff6c3611210e5c9533ed40131fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_performed</element>
+            <list_id display_value="x_1473912_lva_vehicle_servicing" element="NULL" name="x_1473912_lva_vehicle_servicing" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">afd90ff6c3611210e5c9533ed40131fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_id>abd90ff6c3611210e5c9533ed40131fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1473912_lva_vehicle_servicing</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-02 17:58:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afd90ff6c3611210e5c9533ed40131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1473912_lva_vehicle_servicing</sys_name>
+            <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
+            <sys_update_name>sys_ui_list_x_1473912_lva_vehicle_servicing_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-02 17:58:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

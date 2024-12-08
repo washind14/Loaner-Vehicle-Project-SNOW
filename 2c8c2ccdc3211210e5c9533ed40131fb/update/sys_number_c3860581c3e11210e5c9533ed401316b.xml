@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1473912_lva_vehicle_tracker">x_1473912_lva_vehicle_tracker</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>VEH</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 21:55:10</sys_created_on>
+        <sys_id>c3860581c3e11210e5c9533ed401316b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>VEH</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
+        <sys_update_name>sys_number_c3860581c3e11210e5c9533ed401316b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-08 19:25:18</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1473912_lva_vehicle_tracker</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1473912_lva_vehicle_tracker</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 21:55:09</sys_created_on>
+        <sys_id>e2860581c3e11210e5c9533ed401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1473912_lva_vehicle_tracker</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
+        <sys_update_name>sys_security_acl_e2860581c3e11210e5c9533ed401311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 21:55:09</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

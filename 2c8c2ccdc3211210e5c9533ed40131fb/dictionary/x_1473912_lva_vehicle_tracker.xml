@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d7568541c3e11210e5c9533ed40131ee" label="Vehicle Tracker" max_length="40" name="x_1473912_lva_vehicle_tracker" type="collection">
+        <element label="Additional Comments" max_length="1000" name="additional_comments" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sent for Servicing" value="Sent for Servicing"/>
+                <element inactive_on_update="false" label="Decommissioned" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Returned for Inspection" value="Returned for Inspection"/>
+                <element inactive_on_update="false" label="Returned to Warehouse" value="Returned to Warehouse"/>
+                <element inactive_on_update="false" label="Pending Release" value="Pending Release"/>
+                <element inactive_on_update="false" label="Out on Field" value="Out on Field"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Notes" max_length="1000" name="u_string_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Return Vehicle Status" max_length="40" name="u_choice_2" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="1" value="returned with minor issues"/>
+                <element inactive_on_update="false" label="Returned with Major Issues" sequence="2" value="returned with major issues"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Returned in Good Condition" sequence="0" value="returned in good condition"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="actual_return_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Notes" max_length="1000" name="return_notes" read_only="true" type="string"/>
+        <element choice="1" label="Tracker Status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="Closed"/>
+                <element inactive_on_update="false" label="Open" value="Open"/>
+                <element inactive_on_update="false" label="Cancelled" value="Cancelled"/>
+            </choice>
+        </element>
+        <element display="true" label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1473912_lva_loaner_vehicle_catalog" type="reference"/>
+        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <element label="Delivery Information" max_length="1000" name="delivery_information" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Number" mandatory="true" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="u_glide_date_1" read_only="true" type="glide_date"/>
+        <element label="Date Requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Returned in Good Condition" sequence="0" value="returned in good condition"/>
+                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="1" value="returned with minor issues"/>
+                <element inactive_on_update="false" label="Returned with Major Issues" sequence="2" value="returned with major issues"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="request_number"/>
+        </index>
+        <index name="index4">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>
