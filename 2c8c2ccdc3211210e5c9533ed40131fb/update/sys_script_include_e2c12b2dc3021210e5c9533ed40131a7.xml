@@ -13,7 +13,7 @@ gatherLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     locationDetail: function() {
 
         var location = '';
-		gs.info('inScriptInclude');
+		gs.info('inscriptinclude');
         var userid = this.getParameter('sysparm_user_sysid');
 
         var gr = new GlideRecord('sys_user');
@@ -21,7 +21,7 @@ gatherLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         gr.query();
 
         if (gr.next()) {
-            location = gr.getValue('office_location');
+            location = gr.getValue('location');
         }
         return location;
     },
@@ -32,13 +32,13 @@ gatherLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-23 19:08:43</sys_created_on>
         <sys_id>e2c12b2dc3021210e5c9533ed40131a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>gatherLocation</sys_name>
         <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
         <sys_update_name>sys_script_include_e2c12b2dc3021210e5c9533ed40131a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-29 03:16:48</sys_updated_on>
+        <sys_updated_on>2024-12-11 13:58:17</sys_updated_on>
     </sys_script_include>
 </record_update>

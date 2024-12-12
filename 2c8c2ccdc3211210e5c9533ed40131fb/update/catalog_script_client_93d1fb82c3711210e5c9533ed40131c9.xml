@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Loaner Vehicle ">6d85d525c3351210e5c9533ed4013133</cat_item>
-        <cat_variable>IO:85ddd5adc3351210e5c9533ed4013118</cat_variable>
+        <cat_variable>IO:89c71525c3351210e5c9533ed4013165</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -42,7 +42,7 @@ function setLocation(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93d1fb82c3711210e5c9533ed40131c9</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>User Location</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1473912_lva">2c8c2ccdc3211210e5c9533ed40131fb</sys_package>
@@ -50,7 +50,7 @@ function setLocation(response) {
         <sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory">2c8c2ccdc3211210e5c9533ed40131fb</sys_scope>
         <sys_update_name>catalog_script_client_93d1fb82c3711210e5c9533ed40131c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-29 03:51:29</sys_updated_on>
+        <sys_updated_on>2024-12-11 13:52:32</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
